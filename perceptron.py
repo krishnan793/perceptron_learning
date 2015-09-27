@@ -40,7 +40,6 @@ def compute_weight(V,T,W,alpha):
 	return epoch_2
 
 def validate_weight(V,T,W):
-	space = 4
 	print "     X      Y  Predicted"
 	for i in range(V.shape[0]):
 		print V[i,1:],T[i],
